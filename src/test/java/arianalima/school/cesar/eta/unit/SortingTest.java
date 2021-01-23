@@ -1,4 +1,4 @@
-package arianalma.school.cesar.eta.unit;
+package arianalima.school.cesar.eta.unit;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
