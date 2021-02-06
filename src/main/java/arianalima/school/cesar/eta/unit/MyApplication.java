@@ -7,7 +7,7 @@ public class MyApplication {
         this.service = svc;
     }
 
-    public boolean processMessage(String msg, String receiver){
-        return this.service.send(msg, receiver);
+    public boolean processMessage(Message message){
+        return this.service.send(message.getContent(), message.getReceiver());
     }
 }
